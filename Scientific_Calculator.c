@@ -6,7 +6,7 @@ int main()
     int c,x,y;
     double a,b;
     printf("Select Your Option for calculate\n\n");
-    printf(" 1. Addition\n 2. Subtraction\n 3. Multiplication\n 4. Division\n 5. Square Root\n 6. Power of two value A^B\n 7. Square\n 8. Cube\n 9. Modulus\n10. Round\n11. Ceil\n12. Floor\n");
+    printf(" 1. Addition\n 2. Subtraction\n 3. Multiplication\n 4. Division\n 5. Square Root\n 6. Power of two value A^B\n 7. Square\n 8. Cube\n 9. Modulus\n10. Round\n11. Ceil\n12. Floor\n13. Log\n14. Power of 10 notation\n15. ln\n16. Exp\n17. sin()\n18. cos()\n19. tan()\n");
 
     scanf("%d", &c);
 switch(c){
@@ -82,6 +82,50 @@ switch(c){
         scanf("%lf", &a);
         printf("Floor of %.15g = %.5g\n",a, floor(a));
         break;
+
+        case 13:
+        printf("Enter Your a value for measure Log:\n\n");
+        scanf("%lf", &a);
+        printf("Log of %.15g = %.5g\n",a, log10(a));
+        break;
+
+
+        case 14:
+        printf("Enter Your a value for measure Power of 10:\n\n");
+        scanf("%lf", &a);
+        printf("%.15g Power of 10 is = %.15g\n",a, pow(10, a));
+        break;
+
+        case 15:
+        printf("Enter Your a value for measure ln:\n\n");
+        scanf("%lf", &a);
+        printf("ln of %.15g = %.5g\n",a, log(a));
+        break;
+
+         case 16:
+        printf("Enter Your a value for measure Exp:\n\n");
+        scanf("%lf", &a);
+        printf("Exp of %.15g = %.5g\n",a, exp(a));
+        break;
+
+         case 17:
+        printf("Enter Your a value for measure sin():\n\n");
+        scanf("%lf", &a);
+        printf("sin() of %.15g = %.5g\n",a, sin(a*3.14159/180));
+        break;
+
+        case 18:
+        printf("Enter Your a value for measure cos():\n\n");
+        scanf("%lf", &a);
+        printf("cos() of %.15g = %.5g\n",a, cos(a*3.14159/180));
+        break;
+
+          case 19:
+        printf("Enter Your a value for measure tan():\n\n");
+        scanf("%lf", &a);
+        printf("tan() of %.15g = %.5g\n",a, tan(a*3.14159/180));
+        break;
+
 
 
 
