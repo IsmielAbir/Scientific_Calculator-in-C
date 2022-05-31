@@ -3,10 +3,10 @@
 int main()
 {
 
-    int c;
+    int c,x,y;
     double a,b;
     printf("Select Your Option for calculate\n\n");
-    printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n 5. Square Root\n 6. Power of two value A^B\n 7. Square\n 8. Cube\n 9. Modulus\n10. Round\n11. Ceil\n12. Floor\n");
+    printf(" 1. Addition\n 2. Subtraction\n 3. Multiplication\n 4. Division\n 5. Square Root\n 6. Power of two value A^B\n 7. Square\n 8. Cube\n 9. Modulus\n10. Round\n11. Ceil\n12. Floor\n");
 
     scanf("%d", &c);
 switch(c){
